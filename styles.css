@@ -1,0 +1,55 @@
+body{
+    background-color: #232323;
+    font-family: serif;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    
+}
+.container{
+    max-width: 600px;
+    margin: 80px auto;
+}
+.square{
+    float: left;
+    width: 160px;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: darkcyan ;
+    margin: 2%;
+    border-radius: 15%;
+    transition: 0.5s;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 15px auto;
+}
+#message{
+    margin-top: 80px;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.msj{
+    padding: 30px;
+}
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.selected{
+    background-color: green;
+    transition: 0.2s;  
+}
+button{
+
+    background-color: #61cbe3;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: Tahoma;
+}
